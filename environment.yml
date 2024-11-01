@@ -1,0 +1,25 @@
+﻿name: yolo-card-trainer
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - nvidia
+  - pytorch
+  - pip
+dependencies:
+  - opendatasets
+  - ultralytics
+  - py-opencv
+  - pandas
+  - seaborn
+  - matplotlib
+  - ipykernel
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1 # Restart may be required
+  - imgaug
+  - tqdm
+  - requests
+  - pyzbar
+  - pip
